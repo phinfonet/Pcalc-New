@@ -1,0 +1,155 @@
+/* line 10, ../scss/styles.scss */
+body {
+  background: url("../images/background.png");
+}
+
+/* line 14, ../scss/styles.scss */
+#logo {
+  background: url("../images/logo.png") no-repeat;
+  margin: 20px;
+  padding: 45px;
+}
+
+/* line 20, ../scss/styles.scss */
+.result {
+  background: white;
+  width: 350px;
+  border-radius: 5px;
+}
+
+/* line 26, ../scss/styles.scss */
+#sidebar {
+  float: left;
+  width: 20%;
+  background: #202020;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 5px;
+}
+/* line 34, ../scss/styles.scss */
+#sidebar ul {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 39, ../scss/styles.scss */
+#sidebar ul li {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #111;
+}
+/* line 43, ../scss/styles.scss */
+#sidebar ul li:first-child {
+  border-top: none;
+}
+/* line 47, ../scss/styles.scss */
+#sidebar ul li:last-child {
+  border-bottom: none;
+}
+/* line 51, ../scss/styles.scss */
+#sidebar ul li .active {
+  background: #111;
+}
+/* line 55, ../scss/styles.scss */
+#sidebar ul li a {
+  padding: 10px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 61, ../scss/styles.scss */
+#sidebar ul li a:hover {
+  background: #111;
+}
+
+/* line 73, ../scss/styles.scss */
+#content {
+  float: right;
+  width: 60%;
+  background: #f5f5f5;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  padding: 15px;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 5px;
+}
+
+/* line 82, ../scss/styles.scss */
+fieldset {
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+/* line 88, ../scss/styles.scss */
+fieldset input.text {
+  font-size: 28px;
+  color: #505050;
+  height: 40px;
+  width: 220px;
+  margin: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  background: -webkit-gradient(linear, left top, left 20, from(white), color-stop(4%, #eeeeee), to(white));
+  /*Chrome and Safari*/
+}
+/* line 99, ../scss/styles.scss */
+fieldset input.bt {
+  border-radius: 5px;
+  background: #617798;
+  -webkit-box-shadow: #c6c6c6 2px 2px 2px;
+  margin: 5px;
+  font-size: 16px;
+  height: 45px;
+  width: 100px;
+  border: 0.5px solid #202020;
+  color: #fff;
+}
+/* line 110, ../scss/styles.scss */
+fieldset input.bt:hover {
+  background: #415576;
+}
+
+/* line 116, ../scss/styles.scss */
+ul.error-messages {
+  float: right;
+  line-height: 1em;
+  width: 40%;
+  display: none;
+  list-style: none;
+  text-align: center;
+}
+/* line 123, ../scss/styles.scss */
+ul.error-messages li {
+  font-size: 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 #9F4631;
+  border: 0;
+  color: white;
+  background: red;
+  padding: 5px 20px;
+  margin-top: -5px;
+  border-radius: 4px;
+}
+
+/* line 136, ../scss/styles.scss */
+footer {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background: #202020;
+  position: absolute;
+  clear: both;
+  bottom: 0;
+}
+
+/* line 146, ../scss/styles.scss */
+img {
+  margin-left: 5%;
+}

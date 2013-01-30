@@ -1,0 +1,20 @@
+#appname:pcalc
+#appid:com.tecnobest.pcalc
+#publisher:phinfonet
+#image:Pcalc.png
+#url:tecnobest.co.cc
+#guid:da19d4ea-eb38-43b9-b8ca-f9dd05261a44
+#desc:Calculo de notas vitoeia coc
+#type:desktop
+runtime:1.2.0.RC4
+tiapp:1.2.0.RC4
+tifilesystem:1.2.0.RC4
+tiplatform:1.2.0.RC4
+tiui:1.2.0.RC4
+ticodec:1.2.0.RC4
+tidatabase:1.2.0.RC4
+timedia:1.2.0.RC4
+timonkey:1.2.0.RC4
+tinetwork:1.2.0.RC4
+tiprocess:1.2.0.RC4
+tiworker:1.2.0.RC4
